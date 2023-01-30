@@ -1,38 +1,30 @@
-# create-svelte
+# SvelteKit with @silintl/ui-components preinstalled
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Importing Componentes
 
-## Creating a project
+You will have to import components directly from node_modules for now eg: `import { Button} from '../../node_modules/@silintl/ui-components/index.mjs'`
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Typescript
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Just use `lang="ts"` in your script tags
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Testing
 
-## Developing
+playwright is preinstalled for testing.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Prettier
 
-```bash
-npm run dev
+Pretter is preinstalled for formatting
+run `npm run format` to format all the files.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Theming
 
-## Building
+See `./src/lib/_theme.scss` and modify to your needs
 
-To create a production version of your app:
+## Typography
 
-```bash
-npm run build
-```
+See `./src/lib/_typography.scss` and modify to your needs
 
-You can preview the production build with `npm run preview`.
+## Crafting your own components
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Add them to /lib and import them.
