@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "svelte-kit sync && svelte-package",
+    "build": "vite build",
+    "preview": "vite preview",
     "prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
     "test": "playwright test",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -21,7 +22,7 @@
     "@playwright/test": "^1.28.1",
     "@silintl/ui-components": "^8.1.0",
     "@sveltejs/adapter-auto": "^1.0.2",
-    "@sveltejs/adapter-cloudflare": "^1.0.0-next.23",
+    "@sveltejs/adapter-cloudflare": "^2.0.1",
     "@sveltejs/kit": "^1.0.0",
     "@sveltejs/package": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
