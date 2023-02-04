@@ -1,6 +1,5 @@
 <script lang="ts">
   import { Page, Button, setNotice } from '../../node_modules/@silintl/ui-components/index.mjs'
-  import '../lib/_index.scss'
 </script>
 
 <Page>
