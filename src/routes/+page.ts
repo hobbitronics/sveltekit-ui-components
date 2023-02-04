@@ -1,3 +1,3 @@
-import { SECRET } from "$env/static/public";
+import { PUBLIC_ENV } from "$env/static/public";
 
-console.log("SECRET: " + SECRET);
+console.log("PUBLIC_ENV: " + PUBLIC_ENV);
