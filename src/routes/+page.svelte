@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Page, Button, setNotice } from '../../node_modules/@silintl/ui-components/index.mjs'
+  import { Page, Button, setNotice } from '@silintl/ui-components'
 </script>
 
 <Page>
