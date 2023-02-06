@@ -1,3 +1,3 @@
-import { PUBLIC_ENV } from "$env/static/public";
+import { PUBLIC_ENV } from '$env/static/public'
 
-console.log("PUBLIC_ENV: " + PUBLIC_ENV);
+console.log('PUBLIC_ENV: ' + PUBLIC_ENV)

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "prebuild:prod": "echo PUBLIC_ENV=${PUBLIC_ENV} >> .env;",
+    "prebuild:prod": "echo PUBLIC_ENV=${PUBLIC_ENV} >> .env; echo PRIVATE_ENV=${PRIVATE_ENV} >> .env;",
     "build": "vite build",
     "preview": "vite preview",
     "prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
