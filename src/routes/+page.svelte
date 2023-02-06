@@ -1,7 +1,8 @@
 <script lang="ts">
   import { Page, Button, setNotice } from '@silintl/ui-components'
 
-  export let data = {}
+  /** @type {import('./$types').PageData} */
+  export let data: { detail: string }
 </script>
 
 <Page>
