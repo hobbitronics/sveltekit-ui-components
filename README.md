@@ -2,7 +2,7 @@
 
 ## Importing Componentes
 
-You will have to import components directly from node_modules for now eg: `import { Button} from '../../node_modules/@silintl/ui-components/index.mjs'`
+You can now import components directly from @silintl/ui-components eg: `import { Button} from '@silintl/ui-components'`
 
 ## Typescript
 
